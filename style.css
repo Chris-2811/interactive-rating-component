@@ -30,8 +30,8 @@ img {
 }
 
 .card {
-  background-color: var(--dark-blue);
-  height: 416px;
+    background: linear-gradient(to bottom, #232A34 0%, #181E27 100%, #181E27 98.96%);
+    height: 416px;
   width: 412px;
   padding: 32px 39px 32px 32px;
   border-radius: 30px;
@@ -43,7 +43,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(213, 19%, 22%);
+  background-color: var(--dark-blue);
   border-radius: 50%;
 }
 
@@ -94,7 +94,7 @@ img {
 }
 
 .rating-form > div > div {
-  background-color: hsl(213, 19%, 22%);
+  background-color: var(--dark-blue);
   height: 51px;
   width: 51px;
   border-radius: 50%;
@@ -111,6 +111,7 @@ img {
   border: none;
   border-radius: 22.5px;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .btn:hover {
