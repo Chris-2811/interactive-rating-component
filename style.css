@@ -59,6 +59,7 @@ img {
 .card-text {
   color: var(--light-gray);
   line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .rating-form {
@@ -71,7 +72,6 @@ img {
   justify-content: space-between;
   width: 100%;
   gap: 22px;
-  margin-top: 24px;
   margin-bottom: 32px;
 }
 
@@ -107,6 +107,7 @@ img {
   line-height: 19px;
   letter-spacing: 2px;
   font-weight: 700;
+  font-size: inherit;
   text-transform: uppercase;
   border: none;
   border-radius: 22.5px;
@@ -134,11 +135,11 @@ img {
 
 .card-back {
   display: none;
-  background-color: #232a34;
+  background: linear-gradient(to bottom, #232A34 0%, #181E27 100%, #181E27 98.96%);
   color: #fff;
   width: 412px;
   height: 416px;
-  padding: 32px 39px 32px 32px;
+  padding: 45px 40px 45px 32px;
   border-radius: 30px;
   text-align: center;
 }
