@@ -1,5 +1,4 @@
 const form = document.querySelector('.rating-form')
-const card = document.querySelector('.card')
 const cardBack = document.querySelector('.card-back')
 const bgBtn = document.querySelector('.btn-secondary')
 const ratings = document.querySelectorAll('.rating')
@@ -22,3 +21,15 @@ ratings.forEach(rating =>
         You selected ${value} out of 5
     `
     }))
+
+
+document.addEventListener('DOMContentLoaded', ()=> {
+    
+    console.log(card.getBoundingClientRect())
+    
+})
+
+
+const card = document.querySelector('.card')
+
+console.log(card)
