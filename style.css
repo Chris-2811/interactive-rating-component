@@ -29,6 +29,17 @@ img {
   max-width: 100%;
 }
 
+.alert-message {
+    position: absolute;
+    background-color:#F72331;
+    padding: 10px 40px;
+    top: 39px;
+    right: 60px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+
 .card {
   background: linear-gradient(
     to bottom,
@@ -36,6 +47,7 @@ img {
     #181e27 100%,
     #181e27 98.96%
   );
+  position: relative;
   height: 416px;
   width: 412px;
   padding: 32px 39px 32px 32px;
@@ -57,11 +69,11 @@ img {
 }
 
 .card-heading {
-  color: var(--white);
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 35.45px;
-  margin-top: 31px;
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35.45px;
+    margin-top: 31px;
   margin-bottom: 7px;
 }
 
@@ -85,7 +97,6 @@ img {
 }
 
 .rating-element .rating {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +110,7 @@ img {
   color: var(--white);
 }
 
-.rating-element .rating:focus {
+.rating-element .bg-gray {
   background-color: var(--medium-gray);
   color: var(--white);
 }
@@ -110,6 +121,12 @@ img {
   min-width: 51px;
   border-radius: 50%;
 }
+
+.rating-form > div > div.bg-red.color-black {
+    background-color: #F72331;
+    color: #333;
+}
+
 
 .btn {
   background-color: var(--orange);
@@ -142,6 +159,13 @@ img {
   border-radius: 22.5px;
   margin-top: 32px;
   line-height: 24px;
+}
+
+.btn-secondary > p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 24px;
 }
 
 .card-back {
