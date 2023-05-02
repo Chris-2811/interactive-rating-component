@@ -52,7 +52,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-blue);
+  background-color: hsla(213, 19%, 19%, 1);
   border-radius: 50%;
 }
 
@@ -106,8 +106,8 @@ img {
 
 .rating-form > div > div {
   background-color: var(--dark-blue);
-  height: 51px;
-  width: 51px;
+  min-height: 51px;
+  min-width: 51px;
   border-radius: 50%;
 }
 
