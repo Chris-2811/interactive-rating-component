@@ -43,6 +43,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 30px;
+  margin-top: 2px;
 }
 
 .star-icon {
@@ -84,10 +85,12 @@ img {
 }
 
 .rating-element .rating {
+
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--light-gray);
+  font-size: 16px;
   cursor: pointer;
 }
 
