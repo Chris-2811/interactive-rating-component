@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(217, 12%, 63%);
+  --medium-gray: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  background-color: #232a34;
+  height: 416px;
+  width: 412px;
+  padding: 32px 39px 32px 32px;
+  border-radius: 30px;
+}
+
+.star-icon {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 50%;
+}
+
+.card-heading {
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35.45px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.card-text {
+    color: var(--light-gray);
+    line-height: 24px;
+}
+
+.rating-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-element {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 22px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.rating-element  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray);
+    cursor: pointer;
+}
+
+.rating-element  .rating:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.rating-element  .rating:focus {
+    background-color: var(--medium-gray);
+    color: var(--white)
+}
+
+.rating-form > div > div {
+    background-color: hsl(213, 19%, 22%);
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: var(--orange);
+    color: var(--white);
+   padding: 11px 137px;
+   line-height: 19px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 22.5px;
+   cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--white);
+    color: var(--orange)
+}
+
+.btn-secondary {
+    background-color: hsl(213, 19%, 22%);
+    color: var(--orange);
+    display: inline-block;
+    max-width: 250px;
+    padding: 6px 32px;
+    text-align: center;
+    border: none;
+    border-radius: 22.5px;
+    margin-top: 32px;
+    line-height: 24px;
+}
+
+.card-back{
+    display: none;
+    background-color: #232a34;
+    color: #fff;
+    width: 412px;
+    height: 416px;
+    padding: 32px 39px 32px 32px;
+    border-radius: 30px;
+    text-align: center;
+}
