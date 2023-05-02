@@ -30,7 +30,7 @@ img {
 }
 
 .card {
-  background-color: #232a34;
+  background-color: var(--dark-blue);
   height: 416px;
   width: 412px;
   padding: 32px 39px 32px 32px;
@@ -48,96 +48,96 @@ img {
 }
 
 .card-heading {
-    color: var(--white);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 35.45px;
-    margin-top: 30px;
-    margin-bottom: 7px;
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.45px;
+  margin-top: 32px;
+  margin-bottom: 7px;
 }
 
 .card-text {
-    color: var(--light-gray);
-    line-height: 24px;
+  color: var(--light-gray);
+  line-height: 24px;
 }
 
 .rating-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .rating-element {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 22px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 22px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
-.rating-element  .rating {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--light-gray);
-    cursor: pointer;
+.rating-element .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-gray);
+  cursor: pointer;
 }
 
-.rating-element  .rating:hover {
-    background-color: var(--orange);
-    color: var(--white);
+.rating-element .rating:hover {
+  background-color: var(--orange);
+  color: var(--white);
 }
 
-.rating-element  .rating:focus {
-    background-color: var(--medium-gray);
-    color: var(--white)
+.rating-element .rating:focus {
+  background-color: var(--medium-gray);
+  color: var(--white);
 }
 
 .rating-form > div > div {
-    background-color: hsl(213, 19%, 22%);
-    height: 51px;
-    width: 51px;
-    border-radius: 50%;
+  background-color: hsl(213, 19%, 22%);
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
 }
 
-.btn{
-    background-color: var(--orange);
-    color: var(--white);
-   padding: 11px 137px;
-   line-height: 19px;
-   letter-spacing: 2px;
-   font-weight: 700;
-   text-transform: uppercase;
-   border: none;
-   border-radius: 22.5px;
-   cursor: pointer;
+.btn {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 12px 137px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 22.5px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: var(--white);
-    color: var(--orange)
+  background-color: var(--white);
+  color: var(--orange);
 }
 
 .btn-secondary {
-    background-color: hsl(213, 19%, 22%);
-    color: var(--orange);
-    display: inline-block;
-    max-width: 250px;
-    padding: 6px 32px;
-    text-align: center;
-    border: none;
-    border-radius: 22.5px;
-    margin-top: 32px;
-    line-height: 24px;
+  background-color: hsl(213, 19%, 22%);
+  color: var(--orange);
+  display: inline-block;
+  max-width: 250px;
+  padding: 6px 32px;
+  text-align: center;
+  border: none;
+  border-radius: 22.5px;
+  margin-top: 32px;
+  line-height: 24px;
 }
 
-.card-back{
-    display: none;
-    background-color: #232a34;
-    color: #fff;
-    width: 412px;
-    height: 416px;
-    padding: 32px 39px 32px 32px;
-    border-radius: 30px;
-    text-align: center;
+.card-back {
+  display: none;
+  background-color: #232a34;
+  color: #fff;
+  width: 412px;
+  height: 416px;
+  padding: 32px 39px 32px 32px;
+  border-radius: 30px;
+  text-align: center;
 }
