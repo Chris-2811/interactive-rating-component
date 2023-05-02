@@ -30,14 +30,14 @@ img {
 }
 
 .alert-message {
-    position: absolute;
-    background-color:#F72331;
-    padding: 10px 40px;
-    top: 39px;
-    right: 60px;
-    text-align: center;
-    border-radius: 20px;
-    display: none;
+  position: absolute;
+  background-color: #f72331;
+  padding: 10px 40px;
+  top: 39px;
+  right: 60px;
+  text-align: center;
+  border-radius: 20px;
+  display: none;
 }
 
 .card {
@@ -69,11 +69,11 @@ img {
 }
 
 .card-heading {
-    color: var(--white);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 35.45px;
-    margin-top: 31px;
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.45px;
+  margin-top: 31px;
   margin-bottom: 7px;
 }
 
@@ -91,7 +91,6 @@ img {
 .rating-element {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   gap: 22px;
   margin-bottom: 32px;
 }
@@ -123,10 +122,9 @@ img {
 }
 
 .rating-form > div > div.bg-red.color-black {
-    background-color: #F72331;
-    color: #333;
+  background-color: #f72331;
+  color: #333;
 }
-
 
 .btn {
   background-color: var(--orange);
@@ -182,4 +180,69 @@ img {
   padding: 45px 40px 45px 32px;
   border-radius: 30px;
   text-align: center;
+}
+
+/* Mobile View */
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+    padding: 154px 24px;
+  }
+
+  .card {
+    max-width: 327px;
+    max-height: 360px;
+    margin: 0 auto;
+    padding: 24px 22px 32px 24px;
+    overflow: hidden;
+  }
+
+  .rating-element {
+    justify-content: space-between;
+    gap: 17px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+
+  .rating-element .rating {
+    min-width: 41px;
+    min-height: 41px;
+  }
+
+  .star-icon {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .card-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 98%;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-heading {
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .alert-message {
+    top: 25px;
+    right: 20px;
+  }
+
+  .card-back {
+    max-height: 360px;
+    padding: 34px 24px 37px 24px;
+  }
 }
