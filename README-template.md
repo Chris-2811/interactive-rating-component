@@ -20,7 +20,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-### The challenge
+The challenge
 
 Users should be able to:
 
@@ -28,6 +28,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+- User can not commit without selecting a rating
 
 ### Screenshot
 
@@ -43,8 +44,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Chris-2811/interactive-rating-component.git
+- Live Site URL: https://chris-2811.github.io/interactive-rating-component/
 
 ## My process
 
@@ -53,33 +54,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this JavaScript code, I learned how to:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Use the document.querySelector() method to select specific elements in the DOM based on their class names.
+Use the forEach() method to iterate over a collection of elements and attach event listeners to each one.
+Use the getAttribute() method to get the value of a custom attribute on an HTML element.
+Dynamically update the content of an HTML element using the innerHTML property.
+Use the async and await keywords to handle asynchronous operations with Promises.
+Use the preventDefault() method to prevent the default behavior of a form submission event.
+Use conditional statements (if/else) to control the flow of program execution based on specific conditions.
+Use the setTimeout() method to delay the execution of a function by a specified amount of time.
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 

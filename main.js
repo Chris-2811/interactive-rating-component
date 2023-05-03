@@ -61,12 +61,6 @@ function removeAlert() {
 }
 
 
-document.addEventListener('DOMContentLoaded', ()=> {
-    
-    console.log(card.getBoundingClientRect())
-    
-})
-
 
 
 
