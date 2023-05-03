@@ -16,11 +16,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-The challenge 💪
+### The challenge 💪
 
 Users should be able to:
 
@@ -32,7 +30,7 @@ Users should be able to:
 
 ### Screenshot 📷
 
-![](./screenshot.jpg)
+![](./images/screen1.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -60,15 +58,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 In this JavaScript code, I learned how to:
 
--Use the forEach() method to iterate over a collection of elements and attach event listeners to each one.
+- Use the forEach() method to iterate over a collection of elements and attach event listeners to each one.
 
--Use the getAttribute() method to get the value of a custom attribute on an HTML element.
+- Use the getAttribute() method to get the value of a custom attribute on an HTML element.
 
--Use the async and await keywords to handle asynchronous operations with Promises.
+- Use the async and await keywords to handle asynchronous operations with Promises.
 
--Use conditional statements (if/else) to control the flow of program execution based on specific conditions.
+- Use conditional statements (if/else) to control the flow of program execution based on specific conditions.
 
--Use the setTimeout() method to delay the execution of a function by a specified amount of time.
+- Use the setTimeout() method to delay the execution of a function by a specified amount of time.
 
 ### Continued development
 
