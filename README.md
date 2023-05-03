@@ -20,7 +20,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-The challenge
+The challenge 💪
 
 Users should be able to:
 
@@ -30,7 +30,7 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 - User can not commit without selecting a rating
 
-### Screenshot
+### Screenshot 📷
 
 ![](./screenshot.jpg)
 
@@ -42,14 +42,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Links
+### Links 🌐
 
 - Solution URL: https://github.com/Chris-2811/interactive-rating-component.git
 - Live Site URL: https://chris-2811.github.io/interactive-rating-component/
 
 ## My process
 
-### Built with
+### Built with 🚀
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -74,7 +74,7 @@ In this JavaScript code, I learned how to:
 
 In my next projects I want to focus more on JavaScript 🔥
 
-## Author
+## Author &#x1F468
 
 - Github - [Christoph](https://github.com/Chris-2811)
 - Frontend Mentor - [@Chris-2811](https://www.frontendmentor.io/profile/yourusername)
