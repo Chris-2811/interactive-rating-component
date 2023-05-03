@@ -4,6 +4,8 @@ const bgBtn = document.querySelector('.btn-secondary')
 const ratings = document.querySelectorAll('.rating')
 const alert = document.querySelector('.alert-message');
 const card = document.querySelector('.card')
+const copyright = document.querySelector('.copyright');
+
 
 form.addEventListener('submit', addRating)
 let value;
@@ -39,6 +41,7 @@ async function addRating(e) {
     } else {
         card.style.display = 'none'
         cardBack.style.display = 'block'
+        copyright.style.display = 'none'
     }
     
 }

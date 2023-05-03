@@ -19,14 +19,24 @@ body {
   background-color: var(--very-dark-blue);
   font-family: "Overpass", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  min-height: 100vh;
   font-size: 15px;
+}
+
+a {
+  color: var(--orange);
 }
 
 img {
   max-width: 100%;
+}
+
+.copyright {
+  color: #ddd;
+  padding-top: 20px;
 }
 
 .alert-message {
