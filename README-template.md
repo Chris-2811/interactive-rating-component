@@ -61,35 +61,23 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 In this JavaScript code, I learned how to:
 
-Use the document.querySelector() method to select specific elements in the DOM based on their class names.
-Use the forEach() method to iterate over a collection of elements and attach event listeners to each one.
-Use the getAttribute() method to get the value of a custom attribute on an HTML element.
-Dynamically update the content of an HTML element using the innerHTML property.
-Use the async and await keywords to handle asynchronous operations with Promises.
-Use the preventDefault() method to prevent the default behavior of a form submission event.
-Use conditional statements (if/else) to control the flow of program execution based on specific conditions.
-Use the setTimeout() method to delay the execution of a function by a specified amount of time.
+  -Use the forEach() method to iterate over a collection of elements and attach     event listeners to each one.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+  -Use the getAttribute() method to get the value of a custom attribute on an HTML element.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+  -Use the async and await keywords to handle asynchronous operations with Promises.
+
+  -Use conditional statements (if/else) to control the flow of program execution based on specific conditions.
+
+  -Use the setTimeout() method to delay the execution of a function by a specified amount of time.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+In my next projects I want to focus more on JavaScript 🔥
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Github - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 

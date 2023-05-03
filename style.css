@@ -35,10 +35,9 @@ img {
 }
 
 .copyright {
-  position: absolute;
-  top: 62%;
   color: #ddd;
   padding-top: 20px;
+  
 }
 
 .alert-message {
